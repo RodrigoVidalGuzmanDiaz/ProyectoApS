@@ -21,6 +21,12 @@ Integrantes
 | Crear un proyecto de forma organizada  |
 
 
+
+
 Descripción de las configuraciones del proyecto
 
 Las configuraciones de este proyecto consisten en lograr mantener la estructura de nuestro proyecto y sea visto de una buena manera
+
+
+
+https://rodrigovidalguzmandiaz.github.io/ProyectoApS/
