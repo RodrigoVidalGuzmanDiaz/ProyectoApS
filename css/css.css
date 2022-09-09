@@ -15,7 +15,7 @@
 #pira{
     width: 50%;
     position: relative;
-    left: 20rem;
+    left: 17rem;
 }
 
 #paV{
@@ -31,7 +31,7 @@
     -webkit-border-radius: 1rem;
     position: relative;
     top: -40rem;
-    left: 80rem;
+    left: 93rem;
 }
 
 @media (max-width: 375px){
