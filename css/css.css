@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body{
     background-image: url("https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/1x-copia/fondo.png?raw=true");
     background-size: cover;
@@ -144,7 +144,7 @@ align-items: center;
 }
 #plato img{
     width: 100%;
-=======
+}
 #contenedorDos{
     background-image: url("https://github.com/jrlopez185/imagenes-suvir/blob/main/Fondo%20Piramide.png?raw=true");
     width: 100%;
@@ -178,7 +178,7 @@ align-items: center;
     -webkit-border-radius: 1rem;
     position: relative;
     top: -40rem;
-    left: 80rem;
+    left: 93rem;
 }
 
 @media (max-width: 375px){
@@ -228,5 +228,4 @@ align-items: center;
         top:1rem;
         font-size: 2rem;
     }
->>>>>>> renato
 }

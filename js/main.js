@@ -17,6 +17,6 @@ let estadistica = document.querySelector("#estadistica");
 estadistica.innerHTML = estadistica1;
 
 //agregando la piramide al root
-//import {piramide1} from './componentes/piramide.js';
-//let piramide = document.querySelector("#piramide");
-//piramide.innerHTML = piramide1;
+import {piramide1} from './componentes/piramide.js';
+let piramide = document.querySelector("#piramide");
+piramide.innerHTML = piramide1;
