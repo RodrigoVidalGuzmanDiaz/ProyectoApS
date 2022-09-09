@@ -20,3 +20,18 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+#alineacionPi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#contenedorDos {
+    height: 60rem;
+}
+#fo {
+    font-size: 1.3rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
