@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+
+    /*Tipografia*/
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Outfit', sans-serif;
+}
+:root{
+    /*Paleta de colores*/
+    --color1:#BCCEF4;
+    --color2:#B3DAF2;
+    --color3:#A3D9D3;
+    --color4:#A7F2CF;
+    --color5:#A8D99A;
+
+    --cajaVerdeColor: #9BC058;
+    --cajaNaranjaColor: #B46951;
+    --cajaVeshColor: #D7B482;
+
+    --colorBotones: #C5D72D;
+
+    /*color de la Letra*/
+    --colorLetra1: #BFBFBF;
+    --colorLetra2: #000102;
+
+    /*Tamaño de la letra*/
+    --letraTitulo:  1.6rem;
+    --letraParrafo: 1.2rem;
+}
