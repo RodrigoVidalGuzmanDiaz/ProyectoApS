@@ -1,0 +1,22 @@
+#header{
+    flex-direction: column;
+
+}
+#botones{
+    width: 100%;
+
+}
+#alineacion {
+    height: 20rem;
+}
+#estadistica {
+    width: auto;
+    height: auto;
+}
+#contenido{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

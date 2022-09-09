@@ -1,0 +1,48 @@
+#cajaVerde{
+    font-size: 150%;
+}
+#titulo {
+    color: #fff;
+    font-size: 5rem;
+    margin-left: 10%;
+}
+#header {
+    height: 12rem;
+}
+#imgLogo {
+    width: 20rem;
+}
+#botones {
+    width: 60%;
+}
+#btOpciones {
+    width: 16rem;
+    height: 4rem;
+}
+#btOpciones a {
+    font-size: 2.5rem;
+}
+#cajaVerde {
+    width: 28rem;
+    height: 27rem;
+    font-size: 2.3rem;
+}
+#cajaNaranja {
+    width: 37rem;
+    height: 30rem;
+    font-size: 2.3rem;
+}
+#cajaVesh {
+    width: 28rem;
+    height: 14rem;
+    font-size: 2.3rem;
+}
+#alineacion2 {
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#titulo {
+    margin-left: 6rem;
+}
