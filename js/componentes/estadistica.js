@@ -8,11 +8,6 @@ export  let estadistica1 =
                     </div>
                 </div>
             </div>
-<<<<<<< HEAD
-            
-=======
-        
->>>>>>> rodrigo
         </div>
         <div id="plato"><img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/1x-copia/plato.png?raw=true"></div>
         <div id="alineacion2"> 
