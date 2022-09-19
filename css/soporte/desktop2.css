@@ -7,7 +7,7 @@
 #botones {
     width: 50%;
 }
-#btOpciones {
+#botones a{
     width: 21rem;
     height: 5rem;
 }

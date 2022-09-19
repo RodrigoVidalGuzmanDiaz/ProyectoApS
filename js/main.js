@@ -2,8 +2,11 @@ let root = document.querySelector("#root");
 
 root.innerHTML = `    
     <header id="header"></header>
-    <section id="estadistica"></section>
-    <section id="piramide"></section>`;
+    <div id="contenidoVista">
+        <section id="estadistica"></section>
+        <section id="piramide"></section>
+    </div>
+    <footer id="foo"></footer>`;
 
 //agregando el header al root
 import {header1} from './componentes/header.js';
@@ -20,3 +23,7 @@ estadistica.innerHTML = estadistica1;
 import {piramide1} from './componentes/piramide.js';
 let piramide = document.querySelector("#piramide");
 piramide.innerHTML = piramide1;
+
+import {footer1} from './componentes/footer.js';
+let footer = document.querySelector("#foo");
+footer.innerHTML = footer1;

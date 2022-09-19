@@ -15,13 +15,14 @@
 #botones {
     width: 60%;
 }
-#btOpciones {
+#botones a{
     width: 16rem;
     height: 4rem;
-}
-#btOpciones a {
+
     font-size: 2.5rem;
+
 }
+
 #cajaVerde {
     width: 28rem;
     height: 27rem;

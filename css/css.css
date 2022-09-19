@@ -15,6 +15,9 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+#contenidoVista{
+    display: none;
+}
 #imgLogo{
     width: 11rem;
 }
@@ -29,7 +32,7 @@ body{
     justify-content: space-around;
 
 }
-#btOpciones{
+#botones a{
     width: 8rem;
     height: 2rem;
     display: flex;
@@ -48,12 +51,12 @@ body{
 box-shadow: 3px 14px 32px -6px rgba(0,0,0,0.75);
 
     background-color: var(--colorBotones);
-}
-#btOpciones a{
+
+
     text-decoration: none;
     color: #655C5C;
-   
 }
+
 #estadistica{
     width: 100%;
     height: 75rem;
@@ -200,7 +203,7 @@ align-items: center;
     }
 } 
 
-#fo {
+#foo {
     background-color: rgba(105, 101, 101, 1);
     color: rgba(255, 255, 255, 1);
     font-size: 2.4rem;

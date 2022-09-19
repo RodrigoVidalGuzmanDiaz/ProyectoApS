@@ -1,0 +1,9 @@
+export let footer1 = `
+<p id="nombreUno">Alisson Beatriz del Valle Chicoj</p>
+<p id="nombreUno">Jose Renato Lopez Pocon</p>
+<p id="nombreUno">Jorge Emanuel Aguilar Giron</p>
+<p id="nombreUno">Keyla Valesca Osorio Lemus</p>
+<p id="nombreUno">Maria Renee Garcia Ordoñes</p>
+<p id="nombreUno">Rodrigo Vidal Guzman Díaz</p>
+<p id="nombreUno">Franklin Sebastian Sandoval Hernandez</p>
+<p id="tete">Digital Healt</p>`;
