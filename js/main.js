@@ -1,8 +1,10 @@
 let root = document.querySelector("#root");
+import {vistaDelContenido} from './componentes/vista.js';
+
 
 root.innerHTML = `    
     <header id="header"></header>
-    <div id="contenidoVista">
+    <div id="contenidoVista" class="contenido">
         <section id="estadistica"></section>
         <section id="piramide"></section>
     </div>
@@ -27,3 +29,5 @@ piramide.innerHTML = piramide1;
 import {footer1} from './componentes/footer.js';
 let footer = document.querySelector("#foo");
 footer.innerHTML = footer1;
+
+vistaDelContenido();

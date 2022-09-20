@@ -1,10 +1,10 @@
 export  let header1 = 
     `<div id="imgLogo">
-            <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/1x-copia/recurso1DigitalColor.png?raw=true">
+            <img class="imgLogo" src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/1x-copia/recurso1DigitalColor.png?raw=true">
         </div>
         <div id="botones">
-            <div id="btOpciones btProteinas">       <a href="#">Proteinas</a>      </div>
-            <div id="btOpciones btCarbohidratos">   <a href="#">Carbohidratos</a>  </div>
-            <div id="btOpciones btLípidos">         <a href="#">Lípidos</a>        </div>
-            <div id="btOpciones btVitaminas">       <a href="#">Vitaminas</a>      </div>
+            <div id="btOpciones btProteinas">       <a id="btProteinas">       Proteinas       </a>        </div>
+            <div id="btOpciones btCarbohidratos">   <a id="btCarbohidratos">   Carbohidratos   </a>        </div>
+            <div id="btOpciones btLípidos">         <a id="btLípidos">         Lípidos         </a>        </div>
+            <div id="btOpciones btVitaminas">       <a id="btVitaminas">       Vitaminas       </a>        </div>
         </div>`;
