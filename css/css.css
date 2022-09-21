@@ -168,6 +168,9 @@ align-items: center;
 
 #pira{
     width: 50%;
+
+    position: relative;
+    left: 17rem;
 }
 
 #paV {
@@ -181,6 +184,11 @@ align-items: center;
     background-color: gray;
     color: #fff;
     -webkit-border-radius: 1rem;
+
+    position: relative;
+    top: -40rem;
+    left: 93rem;
+
 }
 
 @media (max-width: 375px){
