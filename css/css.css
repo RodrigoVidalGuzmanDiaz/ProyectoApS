@@ -240,3 +240,259 @@ align-items: center;
     justify-content: center;
     flex-direction: row;
 }
+
+#cds{
+    background-color: #C5D72D;
+    width: 100%;
+    height: 90rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#cdsPe{
+    width: 70rem;
+    height: 40rem;
+    background-color: #D9D9D9;
+    
+    
+}
+
+#cus{
+    width: 40rem;
+    height: 40rem;
+    background-color: #5D5849;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+    
+      
+}
+
+#cusDos{
+    width: 38rem;
+    height: 38rem;
+    background-color: #B1664F;
+    display: flex;
+justify-content: center;
+align-items: center;
+    
+   
+}
+
+#cusTres{
+    width: 33rem;
+    height: 25rem;
+    background-color: #A9E5E3;
+    transform: rotate(4.34deg);
+    font-family: 'Outfit';
+font-style: normal;
+font-size: 1.6rem;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#pss{
+    
+    top: 5rem;
+}
+
+#cdsDos{
+    background-color: #C5D72D;
+    width: 100%;
+    height: 130rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#yy{
+    width: 110rem;
+    height: 110rem;
+    margin:0rem;
+    background-color: #5D5849;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#yyDos{
+    width: 100rem;
+    height: 100rem;
+    background-color: #B1664F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#fus{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 2rem;
+}
+
+#temFus{
+    background-color: #fff;
+    width: 30rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+#temConte{
+    background-color: #fff;
+    width: 30rem;
+    height: 70rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#gg{
+    font-size: 1.7rem;
+}
+
+#rrTeam{
+    background-color: #fff;
+    width: 30rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+#dd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#msi{
+    background-color: #fff;
+    width: 30rem;
+    height: 70rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nn{
+    display: flex;
+    flex-direction: column;
+}
+
+#ll{
+    background-color: #fff;
+    width: 30rem;
+    height: 70rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#vide{
+    width: 70rem;
+    height: 40rem;
+}
+
+@media (max-width: 375px){
+    #cdsPe{
+        width: 30rem;
+        height: 40rem;
+        background-color: #D9D9D9;
+        
+        
+    }
+
+    #cdsDos{
+        
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #cds{
+        background-color: #B1664F;
+        width: 100%;
+        height: 110rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #cus{
+        width: 20rem;
+        height: 20rem;
+        background-color: #5D5849;
+        margin-top: -30rem;
+       
+          
+    }
+    
+    #cusDos{
+        width: 18rem;
+        height: 18rem;
+        background-color: #B1664F;
+        
+    }
+    
+    #cusTres{
+        
+        width: 16rem;
+        height: 15rem;
+        background-color: #A9E5E3;
+        
+        transform: rotate(4.34deg);
+        font-family: 'Outfit';
+    font-style: normal;
+    font-size: 1.1rem;
+    text-align: center;
+    }
+
+    #yyDos{
+        width: 100%;
+        height: auto;
+        background-color: #B1664F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #vide{
+        width: 30rem;
+        height: 40rem;
+    }
+    
+}
