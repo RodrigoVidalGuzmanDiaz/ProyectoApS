@@ -20,9 +20,38 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-#alineacionPi {
+#titulo {
+    color: #fff;
+    font-size: 3rem;
+}
+.contenidoMedidas {
     display: flex;
     flex-direction: column;
+    padding: 0rem 0;
+    align-items: center;
+}
+.informacionProteinas img {
+    margin: 1rem 0;
+    width: 150%;
+}
+.textoProteinas {
+    width: 143%;
+    display: flex;
+    font-size: 182%;
+    color: #fff;
+    text-align: center;
+}
+.grafico img {
+    width: 150%;
+}
+#tiPi {
+    font-size: 4.2rem;
+    color: #fff;
+    text-align: center;
+}
+#alineacionPi {
+    display: flex;
+    flex-direction: column-reverse;
     align-items: flex-start;
 }
 #contenedorDos {

@@ -22,7 +22,11 @@
     font-size: 2.5rem;
 
 }
-
+.Nombres {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
 #cajaVerde {
     width: 28rem;
     height: 27rem;

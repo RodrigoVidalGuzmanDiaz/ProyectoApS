@@ -3,6 +3,8 @@
 
 export function vistaDelContenido(){
 
+    let body = document.getElementById('body')
+
  let contenidoVista = document.getElementById('contenidoVista')
  let imgLogo = document.querySelector('.imgLogo')
  let btProteinas =  document.getElementById('btProteinas');
@@ -20,123 +22,73 @@ export function vistaDelContenido(){
         imgLogo.addEventListener('click', contenidoHomePage);
 
         function contenidoProteina(){
+            body.setAttribute("class","fondoBodyProteinas")
             contenidoVista.classList.add("contenidoVistaNone")
             contenidoVista.innerHTML= `
-            <div id="cds">
-            <div id="cdsPe">
-                <iframe id="vide"   src="https://www.youtube.com/embed/RPeyUToLKiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <!--<div id="ims"></div>-->
-            </div>
-    
-            <div id="cus">
-                <div id="cusDos">
-                    <div id="cusTres">
-                        <p id="pss">Las proteínas son moléculas grandes y complejas que desempeñan muchas funciones críticas en el cuerpo. Realizan la mayor parte del trabajo en las células y son necesarias para la estructura, función y regulación de los tejidos y órganos del cuerpo.</p>
-                    </div>
+            <section class= "contenerdorProteinas">
+                <div class="Superior">
+                    <img class="" src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/imagenDeArriba.png?raw=true">
                 </div>
-            </div>
-        </div>
-    
-        <div id="cdsDos">
-            <div id="yy">
-                <div id="yyDos">
-                   <div id="nn">
-                    <div id="fus">
-                        <div id="temFus">
-                            <p id="tet">Fuentes</p>
-                        </div>
+                <section class="contenidoMedidas">
+                    <div class="informacionProteinas">
+                        <h3 class="tituloProteinas">Proteínas</h3>
+                        <p class="textoProteinas">Las proteínas son moléculas grandes y complejas que desempeñan muchas funciones críticas en el cuerpo. Realizan la mayor parte del trabajo en las células y son necesarias para la estructura, función y regulación de los tejidos y órganos del cuerpo.</p>
+                        <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Ellipse18.png?raw=true">
+                        <p class="textoProteinas"> Las proteínas están formadas por aminoácidos y esta secuencia está determinada por la secuencia de nucleótidos de su gen correspondiente.</p>
                     </div>
-    
-                    <div id="temConte">
-                        <p id="gg">-Lomo embuchado<br>
-                            -Soja<br>
-                            -Queso manchego curado<br>
-                            -Bacalao<br>
-                            -Jamón cerrano<br>
-                            -Queso de bola<br>
-                            -Cacahuates <br>
-                            -Queso fresco <br>
-                            -Salchichón, salami <br>
-                            -Atún<br>
-                            -Lentejas <br>
-                            -Queso Roquefort<br> 
-                            -Sardinas en conserva <br>
-                            -Chorizo<br>
-                            -Queso de cabrales<br>
-                            -Higado <br>
-                            -Langostinos <br>
-                            -Almendras <br>
-                            -Carne magra de cerdo<br> 
-                            -Morcilla<br>
-                            -Garbanzos<br>
-                            -Cabrito <br>
-                            -Salmón <br>
-                            -Cordero<br> 
-                            -Pistachos<br>
-                            -Lenguado <br>
-                            -Carne semigrasa de cerdo <br>
-                            -Merluza</p>
+                    <div class="grafico">
+                        <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Alimentos.png?raw=true">
                     </div>
-    
-                   </div>
-    
-                    <div id="dd">
-                        <div id="rrTeam">
-                            <p id="tet">Cantidad</p> 
-                        </div>
-                        <div id="ll">
-                            <p id="h">
-                                -50.0
-                                -33.7
-                            -32<br>
-                            -31.5<br>
-                            -30.5<br>
-                            -29.0<br>
-                            -27.0<br>
-                            -26.0<br>
-                            -25.8<br>
-                            -24.3<br>
-                            -24.0<br>
-                            -23.0<br>
-                            -22.0<br>
-                            -22.0<br>
-                            -21.0<br>
-                            -20.7<br>
-                            -20.5<br>
-                            -20.1<br>
-                            -20.0<br>
-                            -20.0<br>
-                            -19.5<br>
-                            -19.0<br>
-                            -19.0<br>
-                            -19.0<br>
-                            -18.0<br>
-                            -17.6<br>
-                            -16.7<br>
-                            -16.5<br>
-                            -15.9
-                            </p>
-                        </div>
-    
-                    </div>
-                </div>
-                
-            </div>
-        </div> 
+                </section>
+            </section>
             `;
         }
         btProteinas.addEventListener('click', contenidoProteina);
 
         function contenidoCarbohidratos(){
+            body.setAttribute("class","fondoBodyCarbohidratos")
+            contenidoVista.classList.add("contenidoVistaNone")
             contenidoVista.innerHTML= `
-
+            <section>
+                <div class="Superior">
+                    <img class="" src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/imagenDeArriba.png?raw=true">
+                </div>
+                <section class="contenidoMedidas">
+                    <div class="informacionProteinas">
+                        <h3 class="tituloProteinas">Carbohidratos</h3>
+                        <p class="textoProteinas">Los glúcidos, carbohidratos, hidratos de carbono o sacáridos son biomoléculas compuestas principalmente de carbono, hidrógeno y oxígeno, aunque algunos de ellos también contienen otros bioelementos tales como: nitrógeno, azufre y fósforo.</p>
+                        <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/carbohidratos.png?raw=true">
+                        <p class="textoProteinas">Se llaman hidratos de carbono, ya que a nivel químico contienen carbono, hidrógeno y oxígeno.</p>
+                    </div>
+                    <div class="grafico">
+                        <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Alimentos.png?raw=true">
+                    </div>
+                </section>
+            </section>
             `;
         }
         btCarbohidratos.addEventListener('click', contenidoCarbohidratos)
 
         function contenidoLípidos(){
+            body.setAttribute("class","fondoBodyLipidos")
+            contenidoVista.classList.add("contenidoVistaNone")
             contenidoVista.innerHTML= `
-
+        <section>
+            <div class="Superior">
+                <img class="" src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/imagenDeArriba.png?raw=true">
+            </div>
+            <section class="contenidoMedidas">
+                <div class="informacionProteinas">
+                    <h3 class="tituloProteinas">Lípidos</h3>
+                    <p class="textoProteinas">Los lípidos son un grupo de moléculas biológicas que comparten dos características: son insolubles en agua y son ricas en energía debido al número de enlaces carbono-hidrógeno.</p>
+                    <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Lipidos.png?raw=true">
+                    <p class="textoProteinas">Un lípido es un compuesto orgánico molecular no soluble compuesto por hidrógeno y carbono.</p>
+                </div>
+                <div class="grafico">
+                    <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Alimentos.png?raw=true">
+                </div>
+            </section>
+        </section>
             `;
         }
         btLípidos.addEventListener('click', contenidoLípidos)

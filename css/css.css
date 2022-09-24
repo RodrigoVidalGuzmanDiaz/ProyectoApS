@@ -1,10 +1,65 @@
-
 body{
     background-image: url("https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/1x-copia/fondo.png?raw=true");
     background-size: cover;
-    background-color: rgba(199, 202, 219, 0.651);
-    
 }
+.fondoBodyProteinas{
+    background-color: #C5D72D;
+    background-image: linear-gradient(90deg, #a2ca2a 50%, #7cbb26 50%);
+}
+.fondoBodyCarbohidratos{
+    background-color: #0ab8c3;
+    background-image: linear-gradient(90deg, #0ab8c3 50%, #a8e5e2 50%);    
+}
+.fondoBodyLipidos{
+    background-color: #c5d32e;
+    background-image: linear-gradient(90deg, #c5d32e 50%, #7bc426 50%);
+   
+}
+.tituloProteinas{
+    font-size: 5rem;
+    color: #fff;
+}
+.Superior {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 2rem;
+}
+.Superior img{
+    width: 75%;
+}
+.contenidoMedidas {
+    display: flex;
+    flex-direction: row;
+    padding: 7rem 0;
+}
+
+.textoProteinas {
+    display: flex;
+    font-size: 202%;
+    color: #fff;
+    text-align: center;
+    padding: 0rem 0.7rem;
+}
+.grafico {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.grafico img {
+    width: 85%;
+}
+.informacionProteinas {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.informacionProteinas img{
+    margin: 1rem 0;
+}
+
+
 #header{
     width: auto;
     padding: 0rem 2%;
@@ -59,9 +114,10 @@ box-shadow: 3px 14px 32px -6px rgba(0,0,0,0.75);
     text-decoration: none;
     color: #655C5C;
 }
-#btProteinas{
+#btProteinas, #btCarbohidratos, #btLípidos, #btVitaminas{
     cursor: pointer;
 }
+
 #estadistica{
     width: 100%;
     height: 75rem;
@@ -153,13 +209,15 @@ align-items: center;
 #plato img{
     width: 100%;
 }
-#contenedorDos {
-    background-image: url("https://github.com/jrlopez185/imagenes-suvir/blob/main/Fondo%20Piramide.png?raw=true");
+#piramide{
+    background-image: url(https://github.com/jrlopez185/imagenes-suvir/blob/main/Fondo%20Piramide.png?raw=true);
     width: 100%;
     /* height: 90rem; */
     background-size: cover;
 }
-
+#contenedorDos {
+    background-color: rgb(173 169 169 / 58%);
+}
 #tiPi{
     font-size: 5rem;
     color: #fff;
@@ -182,6 +240,13 @@ align-items: center;
     -webkit-border-radius: 1rem;
 
 }
+.contenerdorProteinas{
+    background-color: #C5D72D; 
+    background-image: linear-gradient(90deg, #a2ca2a 50%, #7cbb26 50%);
+}
+
+
+
 
 @media (max-width: 375px){
     #pira{
@@ -207,7 +272,7 @@ align-items: center;
 } 
 
 #foo {
-    background-color: rgba(105, 101, 101, 1);
+    background-color: rgb(94 86 86 / 73%);  
     color: rgba(255, 255, 255, 1);
     font-size: 2.4rem;
     padding-left: 1rem;
@@ -220,14 +285,12 @@ align-items: center;
 #tete{
     font-size: 4rem;
     text-align: center;
-    position: relative;
-
 }
 
 @media (max-width: 375px){
-    #tete{
-        position: relative;
-        top:1rem;
+    #tete {
+        /* position: relative; */
+        /* top: 1rem; */
         font-size: 2rem;
     }
 }
@@ -419,7 +482,11 @@ align-items: center;
     width: 70rem;
     height: 40rem;
 }
-
+.Nombres{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+}
 @media (max-width: 375px){
     #cdsPe{
         width: 30rem;
