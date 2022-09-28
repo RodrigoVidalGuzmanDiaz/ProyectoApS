@@ -562,3 +562,21 @@ align-items: center;
     }
     
 }
+
+#cab{
+    border-radius: 1rem;
+    width: 75%;
+    height: 47rem;
+}
+
+#lip{
+    border-radius: 1rem;
+    width: 75%;
+    height: 47rem;
+}
+
+#datg{
+    border-radius: 1rem;
+    width: 75%;
+    height: 47rem;
+}

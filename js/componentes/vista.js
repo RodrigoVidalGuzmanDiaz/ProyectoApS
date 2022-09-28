@@ -27,7 +27,7 @@ export function vistaDelContenido(){
             contenidoVista.innerHTML= `
             <section class= "contenerdorProteinas">
                 <div class="Superior">
-                    <img class="" src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/imagenDeArriba.png?raw=true">
+                <iframe id="datg"width="560" height="315" src="https://www.youtube.com/embed/RPeyUToLKiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <section class="contenidoMedidas">
                     <div class="informacionProteinas">
@@ -51,7 +51,7 @@ export function vistaDelContenido(){
             contenidoVista.innerHTML= `
             <section>
                 <div class="Superior">
-                    <img class="" src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/imagenDeArriba.png?raw=true">
+                <iframe id="cab" width="560" height="315" src="https://www.youtube.com/embed/JUXOKbOmk30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <section class="contenidoMedidas">
                     <div class="informacionProteinas">
@@ -75,7 +75,7 @@ export function vistaDelContenido(){
             contenidoVista.innerHTML= `
         <section>
             <div class="Superior">
-                <img class="" src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/imagenDeArriba.png?raw=true">
+            <iframe id="lip" width="560" height="315" src="https://www.youtube.com/embed/7OXP9AhUyYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <section class="contenidoMedidas">
                 <div class="informacionProteinas">
