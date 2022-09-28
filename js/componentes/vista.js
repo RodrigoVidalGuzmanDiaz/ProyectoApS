@@ -10,7 +10,7 @@ export function vistaDelContenido(){
  let btProteinas =  document.getElementById('btProteinas');
  let btCarbohidratos =  document.querySelector('#btCarbohidratos');
  let btLípidos =  document.querySelector('#btLípidos');
- let btVitaminas =  document.querySelector('#btVitaminas');
+
 
         function contenidoHomePage(){
             contenidoVista.innerHTML= `
@@ -69,6 +69,9 @@ export function vistaDelContenido(){
         }
         btCarbohidratos.addEventListener('click', contenidoCarbohidratos)
 
+
+
+
         function contenidoLípidos(){
             body.setAttribute("class","fondoBodyLipidos")
             contenidoVista.classList.add("contenidoVistaNone")
@@ -93,10 +96,10 @@ export function vistaDelContenido(){
         }
         btLípidos.addEventListener('click', contenidoLípidos)
 
-        function contenidoVitaminas(){
-            contenidoVista.innerHTML= `
-
-            `;
-        }
-        btVitaminas.addEventListener('click', contenidoVitaminas)
+//        function contenidoVitaminas(){
+//            contenidoVista.innerHTML= `
+//
+//            `;
+//        }
+//        btVitaminas.addEventListener('click', contenidoVitaminas)
 }
