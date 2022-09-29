@@ -54,11 +54,11 @@ export function vistaDelContenido(){
                 <iframe id="cab" width="560" height="315" src="https://www.youtube.com/embed/JUXOKbOmk30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <section class="contenidoMedidas">
-                    <div class="informacionProteinas">
-                        <h3 class="tituloProteinas">Carbohidratos</h3>
-                        <p class="textoProteinas">Los glúcidos, carbohidratos, hidratos de carbono o sacáridos son biomoléculas compuestas principalmente de carbono, hidrógeno y oxígeno, aunque algunos de ellos también contienen otros bioelementos tales como: nitrógeno, azufre y fósforo.</p>
+                    <div class="informacionCarbohidratos">
+                        <h3 class="tituloCarbohidratos">Carbohidratos</h3>
+                        <p class="textoCarbohidratos">Los glúcidos, carbohidratos, hidratos de carbono o sacáridos son biomoléculas compuestas principalmente de carbono, hidrógeno y oxígeno, aunque algunos de ellos también contienen otros bioelementos tales como: nitrógeno, azufre y fósforo.</p>
                         <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/carbohidratos.png?raw=true">
-                        <p class="textoProteinas">Se llaman hidratos de carbono, ya que a nivel químico contienen carbono, hidrógeno y oxígeno.</p>
+                        <p class="textoCarbohidratos">Se llaman hidratos de carbono, ya que a nivel químico contienen carbono, hidrógeno y oxígeno.</p>
                     </div>
                     <div class="grafico">
                         <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Alimentos.png?raw=true">
@@ -81,11 +81,11 @@ export function vistaDelContenido(){
             <iframe id="lip" width="560" height="315" src="https://www.youtube.com/embed/7OXP9AhUyYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <section class="contenidoMedidas">
-                <div class="informacionProteinas">
-                    <h3 class="tituloProteinas">Lípidos</h3>
-                    <p class="textoProteinas">Los lípidos son un grupo de moléculas biológicas que comparten dos características: son insolubles en agua y son ricas en energía debido al número de enlaces carbono-hidrógeno.</p>
+                <div class="informacionLipidos">
+                    <h3 class="tituloLipidos">Lípidos</h3>
+                    <p class="textoLipidos">Los lípidos son un grupo de moléculas biológicas que comparten dos características: son insolubles en agua y son ricas en energía debido al número de enlaces carbono-hidrógeno.</p>
                     <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Lipidos.png?raw=true">
-                    <p class="textoProteinas">Un lípido es un compuesto orgánico molecular no soluble compuesto por hidrógeno y carbono.</p>
+                    <p class="textoLipidos">Las vitaminas son moléculas orgánicas imprescindibles para los seres vivos en forma de micronutrientes, ya que al ingerirlos en la dieta de forma equilibrada y en dosis esenciales, promueven el correcto funcionamiento fisiológico y del metabolismo.</p>
                 </div>
                 <div class="grafico">
                     <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Alimentos.png?raw=true">
@@ -96,10 +96,27 @@ export function vistaDelContenido(){
         }
         btLípidos.addEventListener('click', contenidoLípidos)
 
-//        function contenidoVitaminas(){
-//            contenidoVista.innerHTML= `
-//
-//            `;
-//        }
-//        btVitaminas.addEventListener('click', contenidoVitaminas)
+        function contenidoVitaminas(){
+            body.setAttribute("class","fondoBodyVitaminas")
+            contenidoVista.classList.add("contenidoVistaNone")
+            contenidoVista.innerHTML= `
+            <section>
+            <div class="Superior">
+            <iframe id="lip" width="560" height="315" src="https://www.youtube.com/embed/7OXP9AhUyYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <section class="contenidoMedidas">
+                <div class="informacionVitaminas">
+                    <h3 class="tituloVitaminas">Vitaminas</h3>
+                    <p class="textoVitaminas">Las vitaminas son moléculas orgánicas imprescindibles para los seres vivos en forma de micronutrientes, ya que al ingerirlos en la dieta de forma equilibrada y en dosis esenciales, promueven el correcto funcionamiento fisiológico y del metabolismo.</p>
+                    <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Lipidos.png?raw=true">
+                    <p class="textoVitaminas">Sustancia orgánica que se encuentra en los alimentos y que, en cantidades pequeñas, es esencial para el desarrollo del metabolismo de los seres vivos; el organismo no puede fabricar esta sustancia por sí mismo.</p>
+                </div>
+                <div class="grafico">
+                    <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Alimentos.png?raw=true">
+                </div>
+            </section>
+        </section>
+            `;
+        }
+        btVitaminas.addEventListener('click', contenidoVitaminas)
 }

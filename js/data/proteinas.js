@@ -9,7 +9,7 @@ export let proteina = [
         lipidos: 0.5
     },
     {
-
+        
     },
     {},
     {},
