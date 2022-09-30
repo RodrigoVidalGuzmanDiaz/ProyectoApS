@@ -23,6 +23,31 @@ body{
 .tituloLipidos{font-size: 5rem;color: #fff;}
 .tituloVitaminas{font-size: 5rem;color: #fff;}
 
+#imagenYnombre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#descipcionYgrafico {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 5rem;
+}
+#grafico{
+    width: 50%;
+}
+.vistaBuscadorVer{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+}
+.vistaBuscador{
+    
+    display: none;
+}
+
 .Superior {
     display: flex;
     justify-content: center;
@@ -241,7 +266,7 @@ align-items: center;
     align-items: center;
     background-color: gray;
     color: #fff;
-    -webkit-border-radius: 1rem;
+
 
 }
 .contenerdorProteinas{
@@ -271,7 +296,6 @@ align-items: center;
     align-items: center;
     background-color: gray;
     color: #fff;
-    -webkit-border-radius: 1rem;
     }
 } 
 

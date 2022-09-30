@@ -1,3 +1,8 @@
+#buscador {
+    position: absolute;
+    left: 0rem;
+    top: 3rem;
+}
 #header{
     flex-direction: column;
 
@@ -19,6 +24,7 @@
     align-items: flex-start;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-top: 5rem;
 }
 #titulo {
     color: #fff;

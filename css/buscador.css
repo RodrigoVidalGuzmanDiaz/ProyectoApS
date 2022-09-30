@@ -1,0 +1,31 @@
+#buscador {
+    position: absolute;
+    left: 2rem;
+    top: 8rem;
+    border-radius: 2rem;
+    background-color: rgb(173 169 169 / 75%);
+    display: flex;
+}
+
+.buscar{
+
+    height: 4rem;
+    border-radius: 1rem;
+    outline: none;
+    background-color:transparent;
+    border:none;
+
+    padding-left: 2rem;
+}
+.btn{
+    width: 5rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+.btn img{
+    width: 40%;
+}
+

@@ -31,3 +31,32 @@ let footer = document.querySelector("#foo");
 footer.innerHTML = footer1;
 
 vistaDelContenido();
+
+
+let vista = document.getElementById('vistaBuscador')
+let btn = document.querySelector("#btn")
+
+function activarBuscador(){
+    vista.setAttribute("class", "vistaBuscadorVer")
+}btn.addEventListener("click", activarBuscador)
+
+
+export function vistaDelBuscador(){
+    btn.onclick = function(){
+        var buscar = document.getElementById("buscar").value;
+        if(buscar == 'hola'){
+            panel.innerHTML = "es una palabra española";
+        } else {
+            panel.innerHTML = "no se ha encontrado ningun resultado";
+        }
+        if (buscar == 'perro' ){
+            panel.innerHTML = "es un animal mamifero";
+        } 
+    }
+
+    let buscador = document.querySelector("#buscador").value;
+
+    
+} 
+
+
