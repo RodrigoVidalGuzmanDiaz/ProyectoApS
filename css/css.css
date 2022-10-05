@@ -516,6 +516,12 @@ align-items: center;
     font-size: 1.7rem;
 }
 @media (max-width: 375px){
+
+    .informacionVitaminas img {
+        margin: 1rem;
+        width: 30rem;
+    }
+
     #cdsPe{
         width: 30rem;
         height: 40rem;
@@ -607,4 +613,8 @@ align-items: center;
     border-radius: 1rem;
     width: 75%;
     height: 47rem;
+}
+
+#hsm{
+    width: 2rem;
 }

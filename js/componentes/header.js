@@ -6,5 +6,5 @@ export  let header1 =
             <div id="btOpciones btProteinas">       <a id="btProteinas">       Proteinas       </a>        </div>
             <div id="btOpciones btCarbohidratos">   <a id="btCarbohidratos">   Carbohidratos   </a>        </div>
             <div id="btOpciones btLípidos">         <a id="btLípidos">         Lípidos         </a>        </div>
-            <div id="btOpciones btVitaminas">       <a id="btVitaminas">       Vitaminas       </a>        </div>
+            <div id="btOpciones btVitaminas">       <a id="btVitaminas">       <img id="hsm" src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Imagenes/home%20(1)%201.png?raw=true">       </a>        </div>
         </div>`;

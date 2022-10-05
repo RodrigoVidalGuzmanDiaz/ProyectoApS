@@ -100,22 +100,62 @@ export function vistaDelContenido(){
             body.setAttribute("class","fondoBodyVitaminas")
             contenidoVista.classList.add("contenidoVistaNone")
             contenidoVista.innerHTML= `
-            <section>
-            <div class="Superior">
-            <iframe id="lip" width="560" height="315" src="https://www.youtube.com/embed/7OXP9AhUyYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div id="contenidoVista" class="contenido">
+        <section id="estadistica"><section id="contenido">
+        <div id="buscador">
+            <input id="buscar" class="buscar">
+            <button id="btn" class="btn"><img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Vector.png?raw=true"></button>
+            <div id="panel" class="panel"></div>
+        </div>
+
+        <div id="vistaBuscador" class="vistaBuscador">
+        <div id="imagenYnombre">
+            <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Imagenes/image%204.png?raw=true">
+            <h3>Ternera</h3>
+        </div>
+        <div id="descipcionYgrafico">  
+        
+            <div><img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Imagenes/Vector%20(1).png?raw=true"></div>
+            <div id="descipcionYgrafico">
+            <p id="descrpcion">
+                Ternera(100g)       <br>
+                Proteinas:20%       <br>
+                Carbohidratos:0%    <br>
+                Lípídos:20%         <br>
+            </p>
+            <img id="grafico" src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Imagenes/image%2010.png?raw=true">
             </div>
-            <section class="contenidoMedidas">
-                <div class="informacionVitaminas">
-                    <h3 class="tituloVitaminas">Vitaminas</h3>
-                    <p class="textoVitaminas">Las vitaminas son moléculas orgánicas imprescindibles para los seres vivos en forma de micronutrientes, ya que al ingerirlos en la dieta de forma equilibrada y en dosis esenciales, promueven el correcto funcionamiento fisiológico y del metabolismo.</p>
-                    <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Lipidos.png?raw=true">
-                    <p class="textoVitaminas">Sustancia orgánica que se encuentra en los alimentos y que, en cantidades pequeñas, es esencial para el desarrollo del metabolismo de los seres vivos; el organismo no puede fabricar esta sustancia por sí mismo.</p>
+            <div><img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Imagenes/Vector%20(2).png?raw=true"></div>
+        </div>
+        
+       </div>   
+
+        <div>
+            <div id="alineacion">
+                <div id="posicion">
+                    <div id="cajaVerde">
+                        Se recomienda reducir la ingesta de grasas saturadas por las poliinsaturadas y las monoinsaturadas que están presentes en el pescado y en los vegetales.
+                    </div>
                 </div>
-                <div class="grafico">
-                    <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Alimentos.png?raw=true">
-                </div>
-            </section>
-        </section>
+            </div>
+        </div>
+        <div id="plato"><img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Plato2.png?raw=true"></div>
+        <div id="alineacion2"> 
+            <div id="cajaNaranja"> Las grasas no deben superar el 30% de las calorias totales ingeridas. Las proteinas deben de suponer el 15% restante en la dieta. Aunque parece fácil de seguir, la dieta de las sociedades más desarrolladas no cumplen estas proporciones y el aporte de grasas y proteínas es mucho mayor de lo que debiera.</div>
+            <div id="cajaVesh">Los hidratos de carbono deben aportar al menos un 55-60% del aporte calórico total.</div>  </div>
+      
+    </section>
+    <div id="titulo">Estadística</div></section>
+        <section id="piramide"><div id="contenedorDos">
+<h1 id="tiPi">Pirámide alimenticia</h1>
+<div id="alineacionPi">
+<img id="pira" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/Piramide.png?raw=true">
+<p id="paV">En nutrición, la pirámide alimenticia es una <br>referencia a la proporción que nuestro cuerpo<br> necesita para mantener una dieta sana y <br>balanceada.Se recomienda la ingesta diaria de <br>55% de carbohidratos,30% de grasas y 15% de<br>proteínas,vitaminas,minerales y fibras</p>
+</div>
+</div>
+</section>
+    </div>
+            
             `;
         }
         btVitaminas.addEventListener('click', contenidoVitaminas)
