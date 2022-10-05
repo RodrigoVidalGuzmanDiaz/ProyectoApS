@@ -1,31 +1,58 @@
-#buscador {
-    position: absolute;
-    left: 2rem;
-    top: 8rem;
-    border-radius: 2rem;
-    background-color: rgb(173 169 169 / 75%);
+.buscadorTodo {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(173 169 169 / 75%);
+    top: 12rem;
+    left: 3rem;
+    width: 21rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
 }
-
-.buscar{
-
-    height: 4rem;
-    border-radius: 1rem;
+#barratexto{
     outline: none;
-    background-color:transparent;
-    border:none;
-
-    padding-left: 2rem;
-}
-.btn{
-    width: 5rem;
-    height: 4rem;
+   background-color: transparent;
+    border: 0;
     border-radius: 1rem;
-    background-color: transparent;
-    border:none;
-    cursor: pointer;
+    padding-left: 1.7rem;
 }
-.btn img{
-    width: 40%;
+#imgBuscar{
+    width: 2rem;
 }
 
+#vistaBuscador{
+    margin: auto;
+    position: absolute;
+    background-color: #fff;
+    width: 60%;
+    right: 0;
+    left: 0;
+    top: 25%;
+}
+#imagen{
+    width: 17%;
+}
+#descripcionYgrafico{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#descripcion{
+    text-align: center;
+    font-size: 2rem;
+}
+#grafico{
+    width: 50%;
+}
+#anteriorYsiguiente {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 1rem;
+}

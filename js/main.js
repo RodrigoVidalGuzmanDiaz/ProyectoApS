@@ -4,6 +4,13 @@ import {vistaDelContenido} from './componentes/vista.js';
 
 root.innerHTML = `    
     <header id="header"></header>
+    <div class="buscadorTodo" id="buscadorTodo">
+            
+        </div>
+       <div id="vistaBuscador">
+            
+       </div>
+       
     <div id="contenidoVista" class="contenido">
         <section id="estadistica"></section>
         <section id="piramide"></section>
@@ -33,30 +40,35 @@ footer.innerHTML = footer1;
 vistaDelContenido();
 
 
-let vista = document.getElementById('vistaBuscador')
-let btn = document.querySelector("#btn")
 
-function activarBuscador(){
-    vista.setAttribute("class", "vistaBuscadorVer")
-}btn.addEventListener("click", activarBuscador)
+import {proteina} from './data/proteinas.js';
+
+import {verContenido} from './componentes/buscador.js';
 
 
-export function vistaDelBuscador(){
-    btn.onclick = function(){
-        var buscar = document.getElementById("buscar").value;
-        if(buscar == 'hola'){
-            panel.innerHTML = "es una palabra española";
-        } else {
-            panel.innerHTML = "no se ha encontrado ningun resultado";
+import {buscadorTodo1} from './componentes/buscador.js';
+let buscadorTodo = document.querySelector("#buscadorTodo")
+buscadorTodo.innerHTML = buscadorTodo1;
+//variables que se utilizaran para comenzar a trabajar
+
+        let imgBuscar = document.querySelector("#imgBuscar")
+
+export function recogerValor(){
+    let barratexto = document.getElementById("barratexto").value;
+
+    let vistaBuscador = document.querySelector("#vistaBuscador")
+
+    proteina.forEach(function(elemento, indice){
+  
+
+        if(barratexto == proteina[indice].name){
+            vistaBuscador.innerHTML = verContenido(indice);
+        }else{
         }
-        if (buscar == 'perro' ){
-            panel.innerHTML = "es un animal mamifero";
-        } 
-    }
-
-    let buscador = document.querySelector("#buscador").value;
-
-    
-} 
+        
+    });
 
 
+    console.log(barratexto)
+}
+imgBuscar.addEventListener("click",recogerValor)

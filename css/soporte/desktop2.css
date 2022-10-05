@@ -40,3 +40,10 @@
 #titulo {
     margin: -13rem 0 0 5rem;
 }
+.buscadorTodo {
+    top: 14rem;
+    left: 4rem;
+    width: 19rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+}
