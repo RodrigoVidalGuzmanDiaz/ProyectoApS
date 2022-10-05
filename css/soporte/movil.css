@@ -70,3 +70,24 @@
     flex-direction: column;
     justify-content: center;
 }
+#imgBuscar {
+    width: 1.5rem;
+}
+.buscadorTodo {
+    top: 9rem;
+}
+.buscadorTodo {
+    
+    top: 9rem;
+    left: 3rem;
+    width: 19rem;
+    height: 3rem;
+}
+#vistaBuscador {
+    margin: auto;
+    position: absolute;
+    background-color: #fff;
+    width: 90%;
+    top: 20rem;
+    left: 2rem;
+}

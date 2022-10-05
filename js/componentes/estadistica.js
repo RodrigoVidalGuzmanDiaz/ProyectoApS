@@ -1,32 +1,5 @@
 export  let estadistica1 =  
     `<section id="contenido">
-        <div id="buscador">
-            <input id="buscar" class="buscar">
-            <button id="btn" class="btn"><img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Vector.png?raw=true"></button>
-            <div id="panel" class="panel"></div>
-        </div>
-
-        <div id="vistaBuscador" class="vistaBuscador">
-        <div id="imagenYnombre">
-            <img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Imagenes/image%204.png?raw=true">
-            <h3>Ternera</h3>
-        </div>
-        <div id="descipcionYgrafico">  
-        
-            <div><img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Imagenes/Vector%20(1).png?raw=true"></div>
-            <div id="descipcionYgrafico">
-            <p id="descrpcion">
-                Ternera(100g)       <br>
-                Proteinas:20%       <br>
-                Carbohidratos:0%    <br>
-                Lípídos:20%         <br>
-            </p>
-            <img id="grafico" src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Imagenes/image%2010.png?raw=true">
-            </div>
-            <div><img src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Imagenes/Vector%20(2).png?raw=true"></div>
-        </div>
-        
-       </div>   
 
         <div>
             <div id="alineacion">
@@ -47,6 +20,3 @@ export  let estadistica1 =
 
    
     ;
- let vistaBuscador= `
-`
-;
