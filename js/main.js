@@ -4,16 +4,20 @@ import {vistaDelContenido} from './componentes/vista.js';
 
 root.innerHTML = `    
     <header id="header"></header>
-    <div class="buscadorTodo" id="buscadorTodo">
-            
-        </div>
-       <div id="vistaBuscador">
-            
-       </div>
        
     <div id="contenidoVista" class="contenido">
-        <section id="estadistica"></section>
-        <section id="piramide"></section>
+    
+    <div class="buscadorTodo" id="buscadorTodo">
+    <div id="barraBuscador">
+    <input id="barratexto" type="text">
+    </div>
+    <div id="btbuscar">
+        <img id="imgBuscar" class="" src="https://github.com/RodrigoVidalGuzmanDiaz/IMAGES/blob/main/Vector.png?raw=true">
+    </div>
+</div>
+<div id="vistaBuscador"></div>
+    <section id="estadistica"></section>
+    <section id="piramide"></section>
     </div>
     <footer id="foo"></footer>`;
 
@@ -42,33 +46,92 @@ vistaDelContenido();
 
 
 import {proteina} from './data/proteinas.js';
+import {carbohidratos} from './data/carbohidratos.js';
+import {lipidos} from './data/Lipidos.js';
 
-import {verContenido} from './componentes/buscador.js';
 
+import {verContenidoProteina} from './componentes/buscador.js';
+import {verContenidoCarbohidratos} from './componentes/buscador.js';
+import {verContenidoLipidos} from './componentes/buscador.js';
 
-import {buscadorTodo1} from './componentes/buscador.js';
-let buscadorTodo = document.querySelector("#buscadorTodo")
-buscadorTodo.innerHTML = buscadorTodo1;
 //variables que se utilizaran para comenzar a trabajar
 
         let imgBuscar = document.querySelector("#imgBuscar")
 
-export function recogerValor(){
+        
+function recogerValor(){
     let barratexto = document.getElementById("barratexto").value;
 
     let vistaBuscador = document.querySelector("#vistaBuscador")
+    
+
+    vistaBuscador.setAttribute("class","cierreSi")
+    
 
     proteina.forEach(function(elemento, indice){
   
 
         if(barratexto == proteina[indice].name){
-            vistaBuscador.innerHTML = verContenido(indice);
+            vistaBuscador.innerHTML = verContenidoProteina(indice);
         }else{
         }
         
     });
 
+    let btcierre = document.querySelector("#cierre")
+    function cerrar(){
+        let vistaBuscador = document.querySelector("#vistaBuscador")
+        vistaBuscador.setAttribute("class", "cierreNo")
+    }btcierre.addEventListener('click',cerrar)
 
     console.log(barratexto)
-}
-imgBuscar.addEventListener("click",recogerValor)
+}imgBuscar.addEventListener("click",recogerValor)
+
+function recogerValor1(){
+    let barratexto = document.getElementById("barratexto").value;
+
+    let vistaBuscador = document.querySelector("#vistaBuscador")
+
+    carbohidratos.forEach(function(elemento, indice){
+  
+
+        if(barratexto == carbohidratos[indice].name){
+            vistaBuscador.innerHTML = verContenidoCarbohidratos(indice);
+        }else{
+        }
+        
+    });
+
+    let btcierre = document.querySelector("#cierre")
+    function cerrar(){
+        let vistaBuscador = document.querySelector("#vistaBuscador")
+        vistaBuscador.setAttribute("class", "cierreNo")
+    }btcierre.addEventListener('click',cerrar)
+
+    console.log(barratexto)
+}imgBuscar.addEventListener("click",recogerValor1)
+
+function recogerValor2(){
+    let barratexto = document.getElementById("barratexto").value;
+
+    let vistaBuscador = document.querySelector("#vistaBuscador")
+
+    lipidos.forEach(function(elemento, indice){
+  
+
+        if(barratexto == lipidos[indice].name){
+            vistaBuscador.innerHTML = verContenidoLipidos(indice);
+        }else{
+        }
+        
+    });
+
+    let btcierre = document.querySelector("#cierre")
+    function cerrar(){
+        let vistaBuscador = document.querySelector("#vistaBuscador")
+        vistaBuscador.setAttribute("class", "cierreNo")
+    }btcierre.addEventListener('click',cerrar)
+
+    console.log(barratexto)
+}imgBuscar.addEventListener("click",recogerValor2)
+

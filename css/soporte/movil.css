@@ -40,6 +40,14 @@
     margin: 1rem 0;
     width: 150%;
 }
+.informacionCarbohidratos img {
+    margin: 1rem 0;
+    width: 150%;
+}
+.informacionLipidos img {
+    margin: 1rem 0;
+    width: 150%;
+}
 .textoProteinas {
     width: 143%;
     display: flex;
@@ -80,7 +88,6 @@
     
     top: 9rem;
     left: 3rem;
-    width: 19rem;
     height: 3rem;
 }
 #vistaBuscador {
@@ -90,4 +97,7 @@
     width: 90%;
     top: 20rem;
     left: 2rem;
+}
+#grafico {
+    width: 75%;
 }

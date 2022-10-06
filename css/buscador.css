@@ -14,7 +14,7 @@
     -ms-border-radius: 1.5rem;
     -o-border-radius: 1.5rem;
 }
-#barratexto{
+#barratexto, #barratextoLipi{
     outline: none;
    background-color: transparent;
     border: 0;
@@ -35,12 +35,13 @@
     top: 25%;
 }
 #imagen{
-    width: 17%;
+    width: 25%;
 }
 #descripcionYgrafico{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+
 }
 #descripcion{
     text-align: center;
@@ -48,11 +49,25 @@
 }
 #grafico{
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    background-color: #fff;
+}
+#grafico #alimentoImg{
+    width: 5rem;
 }
 #anteriorYsiguiente {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     padding: 0 1rem;
+}
+.cierreNo{
+    display: none;
+}
+.cierreSi{
+    display: block;
 }

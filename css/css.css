@@ -23,17 +23,37 @@ body{
 .tituloLipidos{font-size: 5rem;color: #fff;}
 .tituloVitaminas{font-size: 5rem;color: #fff;}
 
+.alimentoAli{
+    display: flex;
+    flex-direction: row;
+}
+.alimento{
+    display: flex;
+}
+#alimentoGrafico{
+    width: 10rem;
+    height: 10rem;
+}
 #imagenYnombre {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    height: 37%;
 }
 #descipcionYgrafico {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin: 0 5rem;
+}
+#cierre{
+    position: absolute;
+    width: 3rem;
+    right: 1px;
+    top: 1px;
+    cursor: pointer;
+    
 }
 #grafico{
     width: 50%;
@@ -72,9 +92,6 @@ body{
     display: flex;
     justify-content: center;
     width: 50%;
-}
-.grafico img {
-    width: 85%;
 }
 .informacionProteinas {width: 50%;display: flex;flex-direction: column;align-items: center;}
 .informacionProteinas img{margin: 1rem 0;}
@@ -210,7 +227,6 @@ align-items: center;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 #alineacion{

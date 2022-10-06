@@ -1,8 +1,8 @@
-export let proteina = [
+export let carbohidratos = [
     {
-        name: "fideos",
+        name: "Fideos",
         img : "https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Carbohidratos/image%2013.png",
-        descripcion: "fideos(160g)Proteinas:9%"+'<br>'+"Carbohidratos:49%"+'<br>'+"Lípídos:1%" ,
+        descripcion: "fideos(160g)"+'<br>'+ "Proteinas:9%"+'<br>'+"Carbohidratos:49%"+'<br>'+"Lípídos:1%" ,
         grafico:"https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaCarbohidratos/image%2014.png",
     },
 
@@ -14,7 +14,7 @@ export let proteina = [
     },
 
     {
-        name: "piña",
+        name: "Piña",
         img : "https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Carbohidratos/image%2017.png",
         descripcion: "Piña(85g)"+'<br>'+"Proteinas:0%"+'<br>'+"Carbohidratos:11%"+'<br>'+"Lípídos:0%" ,
         grafico:"https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaCarbohidratos/image%2018.png",
@@ -64,7 +64,7 @@ export let proteina = [
     },
 
     {
-        name: "pan integral",
+        name: "Pan integral",
         img : "https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Carbohidratos/image%2056.png",
         descripcion: "Pan de integral(100g)"+'<br>'+"Proteinas:15.1%"+'<br>'+"Carbohidratos:84.5%"+'<br>'+"Lípídos:0.5%",
         grafico:"https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaCarbohidratos/image%2057.png",

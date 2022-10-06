@@ -1,4 +1,4 @@
-export let proteina = [
+export let lipidos = [
     {
         name: "Aceituna",
         img : "https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Lipidos/image%206.png",
@@ -24,7 +24,7 @@ export let proteina = [
         grafico:"https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaLipidos/image%2022.png",
     },
     {
-        name: "Margarina de  soya",
+        name: "Margarina de soya",
         img : "https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Lipidos/image%2058.png",
         descripcion: "Margarina de  soya(100g)"+'<br>'+"Proteinas:0%"+'<br>'+"Carbohidratos:0%"+'<br>'+"Lípídos:10%" ,
         grafico:"https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaLipidos/image%2059.png",
@@ -37,7 +37,7 @@ export let proteina = [
         grafico:"https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaLipidos/image%2061.png",
     },
     {
-        name: "perejil",
+        name: "Perejil",
         img : "https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Lipidos/image%2062.png",
         descripcion: "perejil(100g)"+'<br>'+"Proteinas:0.1%"+'<br>'+"Carbohidratos:6.4%"+'<br>'+"Lípídos:93.5%" ,
         grafico:"https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaLipidos/image%209.png",
