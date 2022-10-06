@@ -42,7 +42,7 @@ export function vistaDelContenido(){
 
         function contenidoProteina(){
             body.setAttribute("class","fondoBodyProteinas")
-            contenidoVista.classList.add("contenidoVistaNone")
+            vistaBuscador.setAttribute("class", "cierreNo")
             contenidoVista.innerHTML= `
             <section class= "contenerdorProteinas">
                     
@@ -71,7 +71,7 @@ export function vistaDelContenido(){
                         <p class="textoProteinas"> Las proteínas están formadas por aminoácidos y esta secuencia está determinada por la secuencia de nucleótidos de su gen correspondiente.</p>
                     </div>
                     <div id="grafico" class="grafico">
-     
+                    
                         <div class="alimentoAli"><div id="alimento"><img id="alimentoImg" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Proteinas/image%204.png"><div id="alimentoDes">Ternera(100g)<br>"Proteinas:20%"<br>Carbohidratos:0% <br>Lípídos:20%</div></div><img id="alimentoGrafico" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaProteinas/image%2010.png"></div><div class="alimentoAli"><div id="alimento"><img id="alimentoImg" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Proteinas/image%205.png"><div id="alimentoDes">Salmón(100g)<br>Proteinas:20% <br>Carbohidratos:0% <br>Lípídos:10%</div></div><img id="alimentoGrafico" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaProteinas/image%208.png"></div><div class="alimentoAli"><div id="alimento"><img id="alimentoImg" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Proteinas/image%2028.png"><div id="alimentoDes">Nuez(100g)<br>Proteinas:15.9%<br>Carbohidratos:8.2%<br>Lípídos:75.9</div></div><img id="alimentoGrafico" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaProteinas/image%2029.png"></div><div class="alimentoAli"><div id="alimento"><img id="alimentoImg" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Proteinas/image%2030.png"><div id="alimentoDes">Almendra(100g)<br>Proteinas:13.3%<br>Carbohidratos:8.8%<br>Lípídos:77.9%,</div></div><img id="alimentoGrafico" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaProteinas/image%2031.png"></div><div class="alimentoAli"><div id="alimento"><img id="alimentoImg" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Proteinas/image%2032.png"><div id="alimentoDes">nueces(100g)<br>Proteinas:16.9%<br>Carbohidratos:8.4%<br>Lípídos:74.7%</div></div><img id="alimentoGrafico" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaProteinas/image%2033.png"></div><div class="alimentoAli"><div id="alimento"><img id="alimentoImg" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Proteinas/image%2034.png"><div id="alimentoDes">Nuez de macadamia(100g)<br>Proteinas:47.7% <br>Carbohidratos:4.5%<br>Lípídos:47.7%</div></div><img id="alimentoGrafico" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaProteinas/image%2035.png"></div><div class="alimentoAli"><div id="alimento"><img id="alimentoImg" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Proteinas/image%2036.png"><div id="alimentoDes">pistacho(100g)<br>Proteinas:21.4%<br>Carbohidratos:8.3%<br>Lípídos:70.3%</div></div><img id="alimentoGrafico" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaProteinas/image%2037.png"></div><div class="alimentoAli"><div id="alimento"><img id="alimentoImg" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Proteinas/image%2038.png"><div id="alimentoDes">garbanzo(100g)<br>Proteinas:49.5%<br>Carbohidratos:3.4%<br>Lípídos:47.1%</div></div><img id="alimentoGrafico" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaProteinas/image%2039.png"></div><div class="alimentoAli"><div id="alimento"><img id="alimentoImg" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Proteinas/image%2040.png"><div id="alimentoDes">guisantes secos(100g)<br>Proteinas:40.0%<br>Carbohidratos:59.7%<br>Lípídos:0.3%</div></div><img id="alimentoGrafico" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaProteinas/image%2041.png"></div><div class="alimentoAli"><div id="alimento"><img id="alimentoImg" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Proteinas/image%2042.png"><div id="alimentoDes">Soja(100g)<br>Proteinas:23.4%<br>Carbohidratos:6.2%<br>Lípídos:70.4%</div></div><img id="alimentoGrafico" src="https://raw.githubusercontent.com/RodrigoVidalGuzmanDiaz/IMAGES/main/Imagenes/img/Graficas/graficaProteinas/image%2043.png"></div></div>
                 </section>
             </section>
@@ -93,13 +93,12 @@ export function vistaDelContenido(){
             
             });
         
-    let btcierre = document.querySelector("#cierre")
+            let btcierre = document.querySelector("#cierre")
     function cerrar(){
         let vistaBuscador = document.querySelector("#vistaBuscador")
         vistaBuscador.setAttribute("class", "cierreNo")
     }btcierre.addEventListener('click',cerrar)
-        
-            console.log(barratexto)
+
         }imgBuscar.addEventListener("click", recogerValor)
         }
         btProteinas.addEventListener('click', contenidoProteina);
@@ -114,9 +113,9 @@ export function vistaDelContenido(){
 
         function contenidoCarbohidratos(){
             body.setAttribute("class","fondoBodyCarbohidratos")
-            contenidoVista.classList.add("contenidoVistaNone")
+            vistaBuscador.setAttribute("class", "cierreNo")
             contenidoVista.innerHTML= `
-            <section>
+            <section class="contenerdorCarbohidratos">
             
             <div class="buscadorTodo" id="buscadorTodo">
                 <div id="barraBuscador">
@@ -152,7 +151,7 @@ export function vistaDelContenido(){
             let barratexto = document.getElementById("barratexto").value;
         
             let vistaBuscador = document.querySelector("#vistaBuscador")
-        
+            
             carbohidratos.forEach(function(elemento, indice){
             
             
@@ -163,14 +162,8 @@ export function vistaDelContenido(){
             
             });
         
-    let btcierre = document.querySelector("#cierre")
-    function cerrar(){
-        let vistaBuscador = document.querySelector("#vistaBuscador")
-        vistaBuscador.setAttribute("class", "cierreNo")
-    }btcierre.addEventListener('click',cerrar)
-        
-            console.log(barratexto)
         }imgBuscar.addEventListener("click", recogerValor)
+
         }
         btCarbohidratos.addEventListener('click', contenidoCarbohidratos)
 
@@ -179,9 +172,9 @@ export function vistaDelContenido(){
 
         function contenidoLípidos(){
             body.setAttribute("class","fondoBodyLipidos")
-            contenidoVista.classList.add("contenidoVistaNone")
+            vistaBuscador.setAttribute("class", "cierreNo")
             contenidoVista.innerHTML= `
-        <section>
+        <section class="contenedorLipidos">
             
             <div class="buscadorTodo" id="buscadorTodo">
                 <div id="barraBuscador">
@@ -227,11 +220,6 @@ export function vistaDelContenido(){
                 
                 });
             
-    let btcierre = document.querySelector("#cierre")
-    function cerrar(){
-        let vistaBuscador = document.querySelector("#vistaBuscador")
-        vistaBuscador.setAttribute("class", "cierreNo")
-    }btcierre.addEventListener('click',cerrar)
             
                 console.log(barratextoLipi)
             }imgBuscarLipi.addEventListener("click", recogerValor)
@@ -240,7 +228,6 @@ export function vistaDelContenido(){
 
         function contenidoVitaminas(){
             body.setAttribute("class","body")
-            contenidoVista.classList.add("contenidoVistaNone")
             contenidoVista.innerHTML= `
             <div id="contenidoVista" class="contenido">
         <section id="estadistica"><section id="contenido">
